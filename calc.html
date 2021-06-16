@@ -1,0 +1,105 @@
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Rafał Dziankowski">
+		<meta name="description" content="Magazyn">		
+		<meta name="robots" content="none">
+		
+        <title>Ubezpieczanie Aut</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet"> 					
+        <link rel="stylesheet" href="style.css">
+        		
+	</head>	
+
+	<body>	  
+
+        <header>
+            <h1>Firma Ubezpieczeniowa</h1>
+            <img src="./img/serge-kutuzov-TNybYN-LqJo-unsplash.jpg" alt="car" width ="65px" height="auto">
+        </header>
+        
+        <h2>kalkulator</h2>
+        <div class="container">            
+            
+            <div class="panel4">                 
+                <div class="calculator">                    
+                    <label>Typ pojazdu</label>    
+                    <select id="type_Vehicle">
+                        <option>motor</option>
+                        <option>samochód osobowy</option>
+                        <option>van</option>
+                        <option>samochód ciężarowy</option>
+                        <option>autobus</option>
+                        <option>van</option>
+                        <option>inny</option>
+                    </select>
+
+                    <label>Marka</label>    
+                    <select>
+                        <option>Audi</option>
+                        <option>BMW</option>
+                        <option>Citroen3</option>
+                        <option>Fiat</option>
+                        <option>Mercedes-Benz</option>
+                        <option>Opel</option>
+                        <option>Renault</option>
+                        <option>VW</option>
+                        <option>inna</option>
+                    </select>
+
+                    <label>Rok produkcji</label>     
+                    <input placeholder="podaj rok produkcji" type="number" min="1886" required></input>  
+
+                    <label>Rodzaj Paliwa</label>    
+                    <select>
+                        <option>Benzyna</option>
+                        <option>Olej napędowy</option>
+                        <option>Gaz</option>
+                        <option>Prąd</option>                       
+                        <option>inny</option>
+                    </select>
+                </div> 
+            </div>
+        
+            <div class="panel4">                 
+                <div class="calculator">                                       
+                    <label>Pojemność silnika</label>     
+                    <input placeholder="podaj pojemność silnika" type="number" min="100"  max="10000"required></input>  
+                    
+                    <label>Liczba drzwi</label>     
+                    <input placeholder="podaj liczbe drzwi" type="number" min="0"  max="7"required></input>  
+                                    
+                    <label>Data rejestracji</label>  
+                    <input placeholder="podaj date rejestracji" type="date" required></input>  
+                    
+                    <label>Wiek kierowcy</label>    
+                    <input type="number" min="14" max="130"></input>
+
+                </div>
+            </div>
+
+            <div class="panel4">                 
+                <div class="calculator">                  
+                    <label>Typ Ubezpieczenia</label>    
+                    <select>
+                        <option>OC</option>
+                        <option>AC</option>
+                        <option>ASSISTANCE</option>
+                        <option>NNW</option>                    
+                    </select>
+
+                    <label>Imię i Nazwisko</label>     
+                    <input placeholder="podaj imię i nazwisko" type="text" required></input>  
+
+                    <div class="twoButton"> 
+                        <button><a href='calc.html'>oblicz</a></button>               
+                        <button><a href='zadanie1.html'>Wróć</a></button> 
+                    </div>
+
+                </div> 
+            </div>  
+        </div> 
+
+    </body>
+</html>
